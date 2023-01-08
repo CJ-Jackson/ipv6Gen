@@ -3,8 +3,8 @@ package main
 import (
 	"crypto/rand"
 	"fmt"
-	"html/template"
 	"os"
+	"text/template"
 )
 
 func main() {
