@@ -22,6 +22,7 @@ First subnet:
 {{.}}::/64
 
 Last subnet:
-{{.}}:ffff::/64`
+{{.}}:ffff::/64
+`
 	_ = template.Must(template.New("Address").Parse(tpl)).Execute(os.Stdout, address)
 }
