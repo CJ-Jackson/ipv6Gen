@@ -4,7 +4,7 @@ Based on https://www.unique-local-ipv6.com/
 
 ## Install
 
-Run `github.com/CJ-Jackson/ipv6Gen`
+Run `go install github.com/CJ-Jackson/ipv6Gen@latest`
 
 ## To use
 
